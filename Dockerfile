@@ -12,4 +12,4 @@ WORKDIR /home/python/app
 
 CMD [ "tail", "-f", "dev/null" ]
 
-# read arquive null for not down
+# read arquive null for not downs
