@@ -1,9 +1,9 @@
-version: "latest"
+version: 'latest'
 
 services:
   app:
     build: .
-    container_name: verticalflix
+    container_name: micro-videos-python-app
     volumes:
       - .:/home/python/app
 
