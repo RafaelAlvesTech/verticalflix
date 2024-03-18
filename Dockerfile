@@ -10,6 +10,8 @@ USER python
 
 WORKDIR /home/python/app
 
+ENV PYTHONPATH=${PYTHONPATH}/home/python/app/src
+
 CMD [ "tail", "-f", "dev/null" ]
 
 # read arquive null for not downs
